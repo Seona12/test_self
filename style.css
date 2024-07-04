@@ -71,6 +71,7 @@ body {
     display: flex;
     flex-direction: column; 
     flex-wrap: wrap;
+    cursor:none;
 }
 
 .right section {
@@ -178,4 +179,16 @@ body.dark-mode .skill-bar {
 
 body.dark-mode .skill-level {
     background-color: #00c772;
+}
+
+.icon-container {
+    position: fixed;
+    pointer-events: none;
+    z-index: 1000;
+    font-size: 50px;
+    color: #AF8F6F;
+}
+
+body.dark-mode .icon-container{
+    color: black;
 }
